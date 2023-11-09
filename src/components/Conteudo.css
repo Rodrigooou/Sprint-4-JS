@@ -1,0 +1,64 @@
+:root {
+    --bg-body: #a4e5f7;
+}
+
+p {
+    font-size: 1.7vw; 
+}
+
+body {
+    background-color: var(--bg-body);
+    margin: 0; 
+}
+
+main {
+    width: 90%; 
+    margin: auto;
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    grid-gap: 20px;
+    grid-template-areas:
+        'pg1 pg1 img'
+        'pg2 pg2 img'
+        'pg3 pg3 img';
+}
+
+article p {
+    text-align: justify;
+    text-indent: 2em;
+}
+
+.pg1 {
+    grid-area: pg1;
+}
+
+.pg2 {
+    grid-area: pg2;
+}
+
+.pg3 {
+    grid-area: pg3;
+}
+
+section {
+    grid-area: img;
+
+}
+
+img {
+    margin-top: 6%;
+    max-width: 100%;
+    height: auto;
+    width: 100%; 
+}
+
+@media (max-width: 768px) {
+    main {
+        grid-template-areas:
+            'pg1 pg1 pg1'
+            'img img img'
+            'pg2 pg2 pg2'
+            'pg3 pg3 pg3';
+    }
+}

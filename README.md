@@ -1,3 +1,4 @@
+## Integrantes
 99919 - Fernando Popolili Lameira Pires - 1ESPG
 
 550249 - Eric de Carvalho Rodrigues - 1ESPG
@@ -8,6 +9,13 @@
 
 550816 - Rodrigo Fernandes Serafim - 1ESPG
  
-link site - https://stellar-horse-c182b2.netlify.app/
+## Funcionamento
+Link do Site - https://stellar-horse-c182b2.netlify.app/
 
-API - npm run contatos
+### Como utilizar:
+
+
+´´´
+npm install
+npm run contatos - Inicializa o Banco de Dados
+´´´

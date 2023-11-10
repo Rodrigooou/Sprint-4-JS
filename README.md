@@ -20,3 +20,15 @@ Link do Site - https://stellar-horse-c182b2.netlify.app/
 
 `npm run contatos` - Inicializa o Banco de Dados
 
+Para criar um usuário, basta ir até a área "Cadastro", e inserir os dados da conta.
+
+Para fazer o login, basta ir até a área de "Login", e entrar com os dados de uma conta.
+
+Conta Admin:
+
+email: admin@fiap.com.br
+senha: 12345
+
+
+
+

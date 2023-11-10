@@ -15,7 +15,7 @@ Link do Site - https://stellar-horse-c182b2.netlify.app/
 ### Como utilizar:
 
 
-´´´
-npm install
-npm run contatos - Inicializa o Banco de Dados
-´´´
+
+´npm install´
+´npm run contatos´ - Inicializa o Banco de Dados
+

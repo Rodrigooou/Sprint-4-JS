@@ -23,6 +23,12 @@
       "email": "bomdia@fia.com.br",
       "senha": "123",
       "id": 5
+    },
+    {
+      "nome": "Rodrigo",
+      "email": "jhon@fiap.com.br",
+      "senha": "1234",
+      "id": 6
     }
   ]
 }
